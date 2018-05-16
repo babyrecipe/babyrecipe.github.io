@@ -1,0 +1,421 @@
+<html>
+<head>
+<title>Baby articles with an indian understanding.</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+function debounce(callback, delay) {
+  var timer = null;
+
+  return function() {
+    if (timer) return;
+
+    callback.apply(this, arguments);
+    timer = setTimeout(() => timer = null, delay);
+  }
+}
+
+function throttle(callback, delay) {
+  let isThrottled = false, args, context;
+
+  function wrapper() {
+    if (isThrottled) {
+      args = arguments;
+      context = this;
+      return;
+    }
+
+    isThrottled = true;
+    callback.apply(this, arguments);
+    setTimeout(() => {
+      isThrottled = false;
+      if (args) {
+        wrapper.apply(context, args);
+        args = context = null;
+      }
+    }, delay);
+  }
+
+  return wrapper;
+}
+
+
+function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    all = document.getElementsByTagName("a");
+    for (i = 0; i < all.length; i++) {
+        node = all[i];
+        if (node.text.toUpperCase().indexOf(filter) > -1)
+            node.style.display = "";
+        else
+            node.style.display = "none";
+    }
+}
+
+var debFunc = throttle(myFunction, 2000);
+</script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+
+#myInput {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid orange;
+  margin-bottom: 12px;
+  margin-top: 5px;
+}
+
+
+
+a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  font-family: "sans-serif";
+  display: block;
+}
+h2 {margin-bottom:7px;}
+
+</style>
+</head>
+
+<body>
+<h2> 👶 Baby Articles for indian infants  &nbsp;&nbsp;&nbsp;<a  style="display:inline;padding: 5px;background-color: lightblue;" href="/">Recipes</a></h2>
+<em>Infants in an Indian setting.</em>
+<input type="text" id="myInput" onkeyup="debFunc()" placeholder="Search for topic" title="Type in">
+
+
+<div class="container">
+<a href='1-year-baby-food-chart.html'>1 Year Baby Food Chart</a>
+<a href='10-creative-games-to-play-with-infants.html'>10-creative-games-to-play-with-infants.html</a>
+<a href='10-easy-christmas-crafts-for-toddlers.html'>10 Easy Christmas Crafts for Toddlers</a>
+<a href='10-easy-diy-gift-ideas-for-teachers.html'>10 Easy DIY Gift Ideas for Teachers</a>
+<a href='10-easy-fathers-day-cards-for-toddlers-to-make.html'>10 Easy Father’s Day Cards for Kids to Make</a>
+<a href='10-fun-diwali-activities-for-kids.html'>10 Fun Diwali Activities for Kids</a>
+<a href='10-great-tips-for-flying-with-baby.html'>10 Great Tips for flying with Baby</a>
+<a href='10-kid-friendly-recipes-holi.html'>10 Kid-friendly Recipes for Holi</a>
+<a href='10-last-minute-diy-cards-for-teachers.html'>10 Easy Last Minute DIY Cards for Teachers</a>
+<a href='10-last-minute-fathers-day-crafts-toddlers-preschoolers.html'>10 Last Minute Father’s Day Crafts for Toddlers and Preschoolers</a>
+<a href='10-months-baby-food-chart.html'>Â 10 Months Baby Food Chart</a>
+<a href='10-months-baby-meal-planner-free-download.html'>10-months-baby-meal-planner-free-download.html</a>
+<a href='10-multicultural-books-for-toddlers.html'>10 Multicultural Books for Toddlers</a>
+<a href='10-must-have-bedtime-books-for-babies.html'>10 Must Have Bedtime Books for Babies</a>
+<a href='10-must-read-books-on-healthy-food-for-toddlers.html'>10 Must Read Books on Healthy Food for Toddlers</a>
+<a href='10-novel-ideas-to-develop-fine-motor-skills-for-toddlers.html'>10 Novel Ideas to Develop Fine Motor Skills for Toddlers</a>
+<a href='10-relaxing-yoga-poses-for-busy-moms.html'>10 Relaxing Yoga Poses for Busy Moms</a>
+<a href='10-return-gift-ideas-for-a-first-birthday-party.html'>10 Return Gift Ideas for a First Birthday Party</a>
+<a href='10-simple-diy-handmade-rakhi-ideas-for-kids-to-make.html'>10 Simple DIY Handmade Rakhi Ideas for Kids to Make</a>
+<a href='10-things-son-needs-mother.html'>10 Things a Son needs from his Mother</a>
+<a href='10-things-to-know-to-prevent-heart-disease-in-children.html'>10-things-to-know-to-prevent-heart-disease-in-children.html</a>
+<a href='10-tips-for-busy-moms-to-stay-healthy.html'>13 Tips for Busy Moms to Stay Healthy</a>
+<a href='10-tips-to-prevent-common-summer-health-problems-in-children.html'>10 Common Summer Health Problems in Children and How to prevent them?</a>
+<a href='10-useful-and-fun-parenting-books-for-new-moms.html'>10 Useful (and Fun) Parenting Books for New Moms</a>
+<a href='10-ways-to-relieve-constipation-in-babies.html'>How to Relieve Constipation in babies?</a>
+<a href='10-ways-to-tame-temper-tantrum.html'>A,B,CâŚ. of taming temper tantrums</a>
+<a href='11-easy-and-fun-halloween-crafts-for-toddlers.html'>11 Easy and Fun Halloween Crafts for Toddlers</a>
+<a href='11-months-baby-food-chart-and-meal-plan.html'>11 Month Baby Food Chart</a>
+<a href='11-months-baby-meal-planner-free-download.html'>11-months-baby-meal-planner-free-download.html</a>
+<a href='12-krishna-janmashtami-activities-for-kids.html'>12 Krishna Janmashtami Activities for Kids</a>
+<a href='13-reasons-why-organizing-playgroups-for-toddlers-is-a-good-idea.html'>13-reasons-why-organizing-playgroups-for-toddlers-is-a-good-idea.html</a>
+<a href='15-adorable-mothers-day-crafts-for-kids-to-make.html'>15 Adorable Mother’s Day Crafts for Kids</a>
+<a href='15-books-about-good-manners-for-toddlers.html'>15 Books about Good Manners for Toddlers</a>
+<a href='15-diwali-gift-ideas-for-babies-and-toddlers.html'>15 Diwali Gift Ideas for Babies and Toddlers</a>
+<a href='15-fun-diwali-books-for-kids-of-all-ages.html'>15 Fun Diwali Books for Kids of All Ages</a>
+<a href='15-instant-porridge-recipes-for-babies.html'>How to prepare the Instant Porridge ?</a>
+<a href='15-must-have-art-and-craft-supplies-for-toddlers.html'>15 Must Have Art and Craft Supplies for Kids</a>
+<a href='15-must-haves-for-a-summer-road-trip-with-kids-2.html'>15 Must Haves for a Summer Road Trip with Kids</a>
+<a href='15-sources-of-calcium-other-than-milk.html'>15 Sources of Calcium other than Milk</a>
+<a href='15-top-amazon-toys-for-toddlers-and-preschoolers-in-2015.html'>15 Top Amazon Toys for Toddlers and Preschoolers in 2015</a>
+<a href='15-ways-to-save-money-with-a-new-baby.html'>15 Simple Ways to Save Money with a New Baby</a>
+<a href='19-simple-ways-to-boost-brain-power-in-infants-and-toddlers.html'>19 Simple Ways to Boost Brain Power in Infants and Toddlers</a>
+<a href='20-easy-ways-to-entertain-your-toddler-while-travelling.html'>20 Ways to Entertain your Toddler while Travelling</a>
+<a href='25-easy-diy-fathers-day-gift-ideas.html'>25 Easy DIY Father’s Day Gift Ideas</a>
+<a href='30-kerala-banana-recipes-for-kids.html'>30 Kerala Banana Recipes for Kids</a>
+<a href='30-kitchen-hacks-for-busy-moms.html'>30 Kitchen Hacks for Busy Moms</a>
+<a href='30-simple-ways-to-save-water.html'>30 Simple Ways to Save Water in your Home</a>
+<a href='34-creative-girl-first-birthday-party-themes-ideas.html'>34 Creative First Birthday Party Themes for Girls</a>
+<a href='34-creative-play-activities-for-babies-below-1-year.html'>Creative Play Activities for Babies below 1 Year</a>
+<a href='4-magical-ways-to-keep-the-romance-alive-after-baby.html'>Magical Ways to keep Romance Alive After Baby</a>
+<a href='5-creative-ways-to-get-kids-to-eat-broccoli.html'>5 Ways to get Kids to Eat Broccoli</a>
+<a href='5-easy-ways-to-spread-some-christmas-cheer.html'>5 Ways to Spread Some Christmas Cheer</a>
+<a href='5-essential-diwali-safety-tips-for-babies.html'>5 Essential Diwali Safety Tips for Babies</a>
+<a href='5-golden-reasons-why-i-think-breast-is-best.html'>5 Golden Reasons Why I Think Breast is Best</a>
+<a href='5-great-gifts-for-kids-on-flipkart.html'>5 Great Gifts for Kids in Flipkart</a>
+<a href='5-most-effective-foods-for-fever-in-children.html'> 5 Most Effective Foods for Fever in Children</a>
+<a href='5-things-i-wish-i-knew-as-a-new-mom.html'>5 Things I Wish I knew as a New Mom</a>
+<a href='5-values-your-child-needs-to-become-successful.html'>5 Values your Child needs to become Successful</a>
+<a href='5-ways-dance-reduces-stress-in-children.html'>5 Ways Dance Reduces Stress In Children</a>
+<a href='50-brilliant-parenting-hacks-for-moms.html'>50 Brilliant Parenting Hacks for Busy Moms</a>
+<a href='50-foods-for-babies-without-teeth.html'>50 Foods for Babies without Teeth</a>
+<a href='50-tips-on-how-to-celebrate-safe-diwali-with-kids.html'>50-tips-on-how-to-celebrate-safe-diwali-with-kids.html</a>
+<a href='52-first-food-recipes-for-babies.html'>52 First Food Recipes for Babies</a>
+<a href='6-months-baby-food-chart.html'>6 Months Baby Food Chart – with Indian Recipes</a>
+<a href='7-causes-for-loss-of-appetite-in-babies-ways-to-avoid-it.html'>7 Causes for Loss of Appetite in Babies</a>
+<a href='7-easy-ways-to-help-your-toddler-chew-food.html'>7 Ways to Help your Toddler Chew</a>
+<a href='8-fun-filled-activities-to-keep-toddlers-busy.html'>8 Activities to Keep Toddlers Busy</a>
+<a href='8-recipes-and-tips-for-cooking-with-breast-milk-or-formula.html'>8 Baby Recipes to make with Breast Milk or Formula</a>
+<a href='8-tips-for-having-a-great-day-at-school.html'>8 Tips for Having a Great Day at School</a>
+<a href='8-ways-to-bond-with-your-child-when-working-at-home.html'>8 Ways To Bond With Your Child When Working At Home</a>
+<a href='abharwishhogipoori-with-flipkart-a-scooter-for-my-son.html'>abharwishhogipoori-with-flipkart-a-scooter-for-my-son.html</a>
+<a href='activities-develop-attention-and-learning-children.html'>Activities to help improve attention and learning in children</a>
+<a href='adoption-a-birth-parents-perspective.html'>adoption-a-birth-parents-perspective.html</a>
+<a href='adoption-joy-beyond-imagination.html'>adoption-joy-beyond-imagination.html</a>
+<a href='age-wise-gift-guide-for-kids.html'>21 Age Wise Creative Gift Ideas for Kids</a>
+<a href='baby-led-weaning-getting-started.html'>baby-led-weaning-getting-started.html</a>
+<a href='baby-meal-planner-7th-month.html'>baby-meal-planner-7th-month.html</a>
+<a href='baby-product-essentials-for-the-indian-parent.html'>Baby Product Essentials for the Indian Parent</a>
+<a href='baby-travel-checklist-free-printable.html'>baby-travel-checklist-free-printable.html</a>
+<a href='be-a-good-role-model-kids.html'>How to be a Good Role Model For Your Kids</a>
+<a href='be-better-than-yourself.html'></a>
+<a href='best-baby-feeding-products-for-starting-solids.html'>Tips to select the best baby feeding products for starting solids</a>
+<a href='best-free-apps-for-toddlers.html'>10 Best Free Apps for Toddlers</a>
+<a href='best-montessori-toys-you-can-buy-online-in-india.html'>Best Montessori Toys you can Buy in India</a>
+<a href='birla-sunlife-jano-toh-mano.html'>birla-sunlife-jano-toh-mano.html</a>
+<a href='books-about-child-abuse-for-young-children.html'>10 Books about Child Abuse for Young Children</a>
+<a href='books-about-diversity-and-tolerance-for-young-kids.html'>10 Books about Diversity and Tolerance for Young Kids</a>
+<a href='boy-first-birthday-themes-and-ideas.html'>43 Dashing DIY Boy First birthday Themes</a>
+<a href='breakfast-in-chennai-that-makes-your-morning-good.html'>breakfast-in-chennai-that-makes-your-morning-good.html</a>
+<a href='bringing-a-dog-into-a-home-with-children.html'>Bringing a Dog Into a Home with Children</a>
+<a href='build-with-hot-wheels-for-out-of-this-world-fun.html'></a>
+<a href='build-with-hot-wheels-to-escape-the-shark-attack.html'>Escape the Shark Attack with Hot Wheels! #BuildWithHotWheels</a>
+<a href='buildwithhotwheels-and-set-up-a-cool-hot-wheels-desert-track.html'>buildwithhotwheels-and-set-up-a-cool-hot-wheels-desert-track.html</a>
+<a href='bulbul-apps-review.html'>What is Bulbul Apps?</a>
+<a href='cambridge-english-young-learners.html'>cambridge-english-young-learners.html</a>
+<a href='can-i-give-curd-banana-milk-during-cold-cough-fever-to-my-baby.html'>can-i-give-curd-banana-milk-during-cold-cough-fever-to-my-baby.html</a>
+<a href='can-i-give-my-baby-cheese-paneer-or-cottage-cheese.html'>When can I give my baby cheese?</a>
+<a href='can-i-give-my-baby-coconut.html'>Can I give my Baby Coconut?</a>
+<a href='can-i-give-my-baby-makhana.html'>Can I give my Baby Makhana?</a>
+<a href='can-i-give-my-baby-millet.html'>When Can I give my Baby Millets ?</a>
+<a href='can-i-give-my-baby-nuts.html'>Can I give my Baby Nuts?</a>
+<a href='can-i-give-my-baby-water.html'>Can I give water to a baby who’s less than 6 months old?</a>
+<a href='carry-your-mobile-carry-your-passion.html'>carry-your-mobile-carry-your-passion.html</a>
+<a href='children-eat-their-school-lunches.html'>7 Ways to Ensure that Children Eat their School Lunches</a>
+<a href='choose-the-best-glucometer-for-diabetes-management.html'>choose-the-best-glucometer-for-diabetes-management.html</a>
+<a href='choosing-a-preschool-in-india-10-must-know-tips.html'>10 Things to consider before choosing a preschool in India</a>
+<a href='cold-and-flu-prevention.html'>7 Easy Ways for Cold and Flu Prevention this Season</a>
+<a href='common-winter-ailments-kids.html'>6 Common Winter Ailments in Kids and their Treatments</a>
+<a href='congenital-heart-disease-simplified.html'>congenital-heart-disease-simplified.html</a>
+<a href='cookiie-pie-co-traveller-review-giveaway.html'></a>
+<a href='create-customized-photo-books-with-zoomin.html'>How to Create a Customized Photobook with Zoomin ?</a>
+<a href='diet-chart-5th-month.html'>How to Introduce Solids for Baby?</a>
+<a href='diet-chart-for-8-month-babies.html'>8 Month Baby Food Chart</a>
+<a href='diet-chart-for-9-month-babies-2.html'>diet-chart-for-9-month-babies-2.html</a>
+<a href='disposable-vs-cloth-diapers-which-should-you-pick.html'>Disposable Vs. Cloth Diapers : Which One?</a>
+<a href='diy-jellyfish-costume.html'>diy-jellyfish-costume.html</a>
+<a href='do-dvds-for-babies-actually-help-development.html'>Do DVDs for Babies actually help Development?</a>
+<a href='do-your-homework.html'>do-your-homework.html</a>
+<a href='does-my-baby-toddler-need-iron-supplements.html'>Does my Baby/Toddler need Iron Supplements?</a>
+<a href='does-watching-tv-affect-eyesight-in-children.html'>Myths surrounding Vision problem</a>
+<a href='easy-christmas-cards-for-toddlers-to-make.html'>10 Easy Christmas Cards for Toddlers to Make</a>
+<a href='easy-easter-bunny-craft-for-toddlers.html'>Easy Easter Bunny Craft for Toddlers</a>
+<a href='easy-indian-lunch-box-recipes-for-kids.html'>easy-indian-lunch-box-recipes-for-kids.html</a>
+<a href='easy-kite-crafts-for-kids.html'>10 Easy Kite Crafts for Kids to Make</a>
+<a href='easy-tahini-paste-recipe.html'>How to make Tahini Paste?</a>
+<a href='easy-tricolor-recipes-for-republic-day.html'>10 Easy Tricolor Recipes for Republic Day</a>
+<a href='easy-valentine-craft-for-toddlers.html'>Easy Valentine Craft for Toddlers</a>
+<a href='eco-friendly-gift-many-days-fun-learning.html'>eco-friendly-gift-many-days-fun-learning.html</a>
+<a href='ecoware-eco-friendly-tableware.html'>Ecoware – Eco Friendly Tableware</a>
+<a href='ekavach-app-review-indias-first-digital-parenting-application.html'>The story behind eKAVACH</a>
+<a href='escape-the-lava-blaze-with-hot-wheels.html'>Escape the Lava Blaze with Hot Wheels! #BuildwithHotWheels</a>
+<a href='every-kid-deserves-a-great-dad-like-mine.html'>every-kid-deserves-a-great-dad-like-mine.html</a>
+<a href='exide-life-myhappylife-campaign-plan-for-your-happiness.html'>exide-life-myhappylife-campaign-plan-for-your-happiness.html</a>
+<a href='feeding-jaggery-for-babies.html'>Can I give my Baby Jaggery?</a>
+<a href='first-aid-tips-every-parent-should-know.html'>10 First Aid Tips Every Parent Should Know</a>
+<a href='fish-handprint-craft-for-kids.html'>fish-handprint-craft-for-kids.html</a>
+<a href='flintobox-review-veggie-champ.html'>FlintoBox â The Veggie Champ Review</a>
+<a href='free-monthly-food-chart-for-babies-toddlers-delivered-by-mail.html'>free-monthly-food-chart-for-babies-toddlers-delivered-by-mail.html</a>
+<a href='freedom-from-dampness.html'>freedom-from-dampness.html</a>
+<a href='fun-outdoor-games-to-get-your-kids-moving.html'>5 Fun Outdoor Games to get your Kids Moving</a>
+<a href='ganesh-chaturthi-crafts-and-activities-kids.html'>10 Ganesh Chaturthi Crafts and Activities for Kids</a>
+<a href='getting-baby-into-a-routine.html'>getting-baby-into-a-routine.html</a>
+<a href='grooming.html'>grooming.html</a>
+<a href='happy-babies-love-pampers.html'></a>
+<a href='have-some-fun-with-dunkydoit.html'>have-some-fun-with-dunkydoit.html</a>
+<a href='health.html'>health.html</a>
+<a href='healthy-water-body.html'>What Healthy Water does for your Body</a>
+<a href='holi-crafts-and-activities-for-kids.html'>10 Holi Crafts and Activities for Kids</a>
+<a href='home-remedies-dry-cough-babies-kids.html'>Home Remedies for Dry Cough in Babies and Kids</a>
+<a href='home-remedies-for-indigestion-in-kids.html'>Home Remedies for Indigestion in Kids</a>
+<a href='home-remedies-for-prickly-heat.html'>10 Home Remedies for Prickly Heat</a>
+<a href='home-remedies-with-spices.html'>20 Home Remedies with Spices</a>
+<a href='how-clean-is-the-air-inside-your-home.html'>how-clean-is-the-air-inside-your-home.html</a>
+<a href='how-do-i-know-if-my-baby-has-a-food-allergy.html'>How do I know if my Baby has a Food Allergy ?</a>
+<a href='how-meal-planning-can-make-you-a-better-mom.html'>How Meal Planning Can Make you a Better Mom</a>
+<a href='how-much-should-a-baby-eat.html'>How much should a Baby Eat?</a>
+<a href='how-much-should-a-toddler-eat.html'>How much should a Toddler Eat?</a>
+<a href='how-much-sleep-do-babies-need.html'>How Much Sleep Do Babies Need?</a>
+<a href='how-sugar-addiction-can-lead-to-diabetes-in-kids.html'>How Sugar Addiction can Lead to Diabetes in Kids</a>
+<a href='how-to-celebrate-safe-and-eco-friendly-holi-with-kids.html'>How to Celebrate Safe and EcoFriendly Holi with Kids</a>
+<a href='how-to-choose-best-sunscreen-for-children-html.html'>How toÂ Choose the Best Sunscreen for Kids</a>
+<a href='how-to-choose-the-right-daycare-for-your-child.html'>How to Choose the Right Daycare for your Child</a>
+<a href='how-to-cultivate-reading-habit-from-childhood.html'></a>
+<a href='how-to-deal-with-your-mother-in-law-when-raising-a-baby.html'>How to Deal with your Mother in Law when Raising a Baby</a>
+<a href='how-to-encourage-toddler-to-talk.html'>How to encourage toddler to talk</a>
+<a href='how-to-get-rid-of-white-spots-on-the-face.html'>5 ways to get rid of White Spots on Face of your Child</a>
+<a href='how-to-introduce-toddlers-to-the-story-of-indias-independence.html'>How to Introduce Toddlers to the Story of India’s Independence</a>
+<a href='how-to-make-boredom-box-for-children.html'>How to make Boredom Box for toddlers</a>
+<a href='how-to-monitor-early-childhood-development.html'>how-to-monitor-early-childhood-development.html</a>
+<a href='how-to-overcome-common-breastfeeding-problems.html'>How to Overcome Common Breastfeeding Problems</a>
+<a href='how-to-prepare-for-adoption-tips-prospective-parents.html'>How to prepare for adoption process?</a>
+<a href='how-to-prepare-your-child-for-daycare.html'>10 Tips to Prepare your Child for Daycare</a>
+<a href='how-to-raise-nonviolent-kids-in-a-violent-world.html'>How to Raise Nonviolent Kids in a Violent World</a>
+<a href='how-to-start-montessori-at-home.html'>How to Start Montessori at Home</a>
+<a href='how-to-stop-thumb-sucking-in-children.html'>8 Tips to Stop Thumb Sucking in Children</a>
+<a href='how-to-travel-with-a-toddler.html'>How to travel with a toddler tension-free ?</a>
+<a href='how-to-use-a-breast-pump-and-breast-milk-storage-guidelines.html'>Breast Milk Storage Guidelines</a>
+<a href='how-to-use-essential-oils-for-children.html'>How to use Essential Oils for Children</a>
+<a href='how-to-wean-a-breastfeeding-toddler-gently.html'>15 Tips on How to Wean a Breastfeeding Toddler Gently</a>
+<a href='how-yoga-helps-kids-eat-healthier.html'>How Yoga Helps Kids Eat Healthier</a>
+<a href='identify-childs-interests-pinwi-app.html'>Do you know your Child’s True Interests? Find out with PiNWi!</a>
+<a href='indian-adoption-agencies-sources-of-childrens-admission.html'>indian-adoption-agencies-sources-of-childrens-admission.html</a>
+<a href='indian-national-symbol-crafts-for-kids.html'>Indian National Symbol Crafts for Kids</a>
+<a href='indian-toddler-food-chart-with-recipes-1.html'></a>
+<a href='indian-toddler-food-chart-with-recipes-2.html'>Indian Toddler Food Chart 2</a>
+<a href='infant-oral-health-care-guide-5-tips.html'>infant-oral-health-care-guide-5-tips.html</a>
+<a href='introduction-to-autism.html'></a>
+<a href='introduction-to-montessori-and-early-learning.html'>introduction-to-montessori-and-early-learning.html</a>
+<a href='is-my-baby-getting-enough-breast-milk.html'>How do I know if my Baby is getting enough Breast Milk?</a>
+<a href='is-your-home-making-your-family-sick.html'>Is your home making your family sick?</a>
+<a href='last-minute-halloween-costumes-toddlers.html'>18 Last Minute Halloween Costumes for Kids</a>
+<a href='latest-vaccination-schedule-iap-india.html'>latest-vaccination-schedule-iap-india.html</a>
+<a href='lead-in-toys-jewelry-children-beware.html'>Lead in Toys- Is that True??</a>
+<a href='legal-documents-required-adoption-india.html'>Legal Documents required for Adoption process in India</a>
+<a href='little-moppet-foods-baby-food-store.html'>Introducing The Little Moppet Foods Baby Food STORE at Madurai!</a>
+<a href='little-west-street-baby-quilt-review.html'>Little West Street Baby Quilt Review</a>
+<a href='living-foodz-channel-a-new-way-to-have-fun-with-food.html'>living-foodz-channel-a-new-way-to-have-fun-with-food.html</a>
+<a href='love-yourself-10-tips-for-busy-moms-to-look-good.html'>10 Beauty Tips for Busy Moms</a>
+<a href='make-childrens-day-unforgettable-for-your-child-bring-fun-home-this-year.html'>Make Children’s Day unforgettable for your child – Bring fun ‘home’ this year!</a>
+<a href='make-gifting-special-giftorie-gift-list-planthegifts.html'>make-gifting-special-giftorie-gift-list-planthegifts.html</a>
+<a href='meal-planner-for-8-and-9-month-babies-2.html'>meal-planner-for-8-and-9-month-babies-2.html</a>
+<a href='mee-mee-stay-warm-plate-review.html'>Review of Mee Mee Stay Warm Plate</a>
+<a href='milk-substitutes-for-lactose-intolerance-in-babies.html'>Milk Substitutes for Lactose Intolerance in Babies</a>
+<a href='moms-get-your-me-time-and-connect-with-yourself.html'>moms-get-your-me-time-and-connect-with-yourself.html</a>
+<a href='multi-cuisine-restaurants-in-chennai-dishing-out-specialities.html'>multi-cuisine-restaurants-in-chennai-dishing-out-specialities.html</a>
+<a href='must-have-travel-accessories-kids-toyzenia.html'></a>
+<a href='myths-childhood-immunity.html'>myths-childhood-immunity.html</a>
+<a href='nasobuddy-nasal-aspirator-review.html'>nasobuddy-nasal-aspirator-review.html</a>
+<a href='nature-activities-for-toddlers.html'>20 Super Simple Nature Activities for Toddlers</a>
+<a href='new-mom-seamless-nursing-bra-review.html'></a>
+<a href='nutrition.html'>nutrition.html</a>
+<a href='oak-leaf-watercolor-painting.html'>oak-leaf-watercolor-painting.html</a>
+<a href='oi-playschools-let-your-child-experience-real-learning.html'>Oi Playschools – Let your Child Experience Real Learning</a>
+<a href='pampers-softest-for-baby-skin.html'>pampers-softest-for-baby-skin.html</a>
+<a href='plowns-app-kids-create-parents-share.html'>The Plowns App – Kids Create, Parents Share!</a>
+<a href='postpartum-depression-a-must-read-for-new-moms.html'>postpartum-depression-a-must-read-for-new-moms.html</a>
+<a href='potty-training-101-how-to-start-potty-training.html'>Potty Training 101: How to Start Potty Training your Toddler</a>
+<a href='potty-training-101-step-by-step-guide-to-potty-training.html'>Step by Step Guide to Potty Training</a>
+<a href='potty-training-101-when-to-start-potty-training.html'>Potty Training 101: When to Start Potty Training</a>
+<a href='potty-training-books-for-toddlers.html'>12 Best Potty Training Books for Toddlers</a>
+<a href='potty-training-hacks.html'>Potty Training Hacks to Make Life Easier for Busy Moms</a>
+<a href='prepare-your-home-for-diwali.html'>A 7 Step Guide to Prepare your Home for Diwali</a>
+<a href='prepared-childs-last-chance-grow.html'>Are you prepared for your child’s last chance to grow?</a>
+<a href='procedure-for-adoption-in-india.html'>procedure-for-adoption-in-india.html</a>
+<a href='rainbow-hospital-the-best-medical-care-for-mothers-and-kids.html'>rainbow-hospital-the-best-medical-care-for-mothers-and-kids.html</a>
+<a href='raising-a-bilingual-child.html'>raising-a-bilingual-child.html</a>
+<a href='raising-child-world-likes.html'>Raising a Child in a World of Likes</a>
+<a href='ramadan-activities-for-toddlers.html'>7 Ramadan Activities for Toddlers</a>
+<a href='realize-full-potential-whisper-ultra-soft.html'>Realize your Full Potential with Whisper Ultra Soft</a>
+<a href='review-appy-store-best-learning-videos-kids.html'></a>
+<a href='review-maharaja-whiteline-smart-chef-food-processor-2.html'>review-maharaja-whiteline-smart-chef-food-processor-2.html</a>
+<a href='review-of-chubears-gummy-vitamins.html'>Chubears Gummy VitaminsReview</a>
+<a href='review-wonderboxx-new-years-carnival.html'>WonderBoxx New Year’s Carnival Ginomo Box Review</a>
+<a href='review-wonderboxx-nutty-numbers-toddlo-box.html'>Review of WonderBoxx Nutty Numbers Toddlo Box</a>
+<a href='rotavirus-vaccination-side-effects-faqs.html'>rotavirus-vaccination-side-effects-faqs.html</a>
+<a href='saving-little-hearts.html'>The Story of Little Moppet Heart Foundation</a>
+<a href='selection-of-product.html'>selection-of-product.html</a>
+<a href='sleep-well-sofy-bodyfit.html'>sleep-well-sofy-bodyfit.html</a>
+<a href='standard-height-and-weight-chart-for-babies.html'>standard-height-and-weight-chart-for-babies.html</a>
+<a href='steps-to-prevent-infectious-diseases.html'>5 Hygiene Steps to Prevent Infectious Diseases in Children</a>
+<a href='sterilize-baby-feeding-equipment-utensils.html'>How to Sterilize Baby Feeding Equipment and Utensils</a>
+<a href='story-of-diwali-for-kids.html'>Book Review: Story of Diwali for Kids</a>
+<a href='stress-free-ways-save-babys-future.html'>Stress-Free Ways to Save for your Baby’s Future</a>
+<a href='succeed-from-failure.html'>Let Kids Succeed from Failure! #HaarkoHarao</a>
+<a href='summer-themed-photo-frame-craft.html'>Summer Themed Photo Frame Craft</a>
+<a href='superstitious-pregnancy-myths-and-facts.html'>Superstitious Pregnancy Myths and Facts – True or False</a>
+<a href='support-my-school-campaign-by-coca-cola.html'>support-my-school-campaign-by-coca-cola.html</a>
+<a href='surf-excel-laundry-tales-laundry-can-be-fun.html'>surf-excel-laundry-tales-laundry-can-be-fun.html</a>
+<a href='swine-flu-vaccine-for-babies-and-children-in-india.html'>Swine Flu Vaccine for Babies and Children</a>
+<a href='take-bonding-with-grandparents-to-the-next-level-this-year.html'>5 Tips to Encourage Bonding with Grandparents</a>
+<a href='taking-care-of-yourself-emotionally-after-childbirth.html'>6 Insane (but Effective) Ways to Start Taking Care of Yourself After Childbirth</a>
+<a href='talk-to-your-child-about-adoption.html'>How to Talk to your Child about Adoption</a>
+<a href='talking-about-adoption-to-your-older-child.html'>Talking about Adoption to your Older Child</a>
+<a href='thank-you.html'>thank-you.html</a>
+<a href='thanks-subscribing.html'>Hey there â€“ We think you are Awesome !!!</a>
+<a href='the-pros-and-cons-of-co-sleeping-with-your-baby.html'>the-pros-and-cons-of-co-sleeping-with-your-baby.html</a>
+<a href='the-story-of-a-dream-the-little-moppet-heart-foundation.html'>the-story-of-a-dream-the-little-moppet-heart-foundation.html</a>
+<a href='the-ultimate-list-of-diaper-bag-essentials.html'>The Ultimate List of Diaper Bag Essentials</a>
+<a href='things-to-consider-when-adopting-an-older-child.html'>Things to Consider Before the Child Comes Home</a>
+<a href='things-to-consider-when-caring-for-a-premature-baby.html'>Things to Consider when Caring for a Premature Baby</a>
+<a href='this-festive-season-saynotofoodpoisoning.html'>this-festive-season-saynotofoodpoisoning.html</a>
+<a href='tips-for-night-time-potty-training.html'>10 Tips for Night Time Potty Training</a>
+<a href='tips-protect-babies-rainy-season-diseases.html'>9 Tips to Protect Babies from Rainy Season Diseases</a>
+<a href='tips-reduce-plastic-usage-home.html'>10 Tips to Reduce Plastic Usage in your Home</a>
+<a href='tips-to-help-kids-stay-safe-on-smartphones.html'>4 Tips to Help Kids Stay Safe on Smartphones</a>
+<a href='tips-to-introduce-a-sugar-free-lifestyle-for-kids.html'>6 Tips to Introduce A Sugar Free Lifestyle For Kids</a>
+<a href='tips-to-lose-weight-while-breastfeeding.html'>10 Tips to Lose Weight while Breastfeeding</a>
+<a href='tips-to-organize-a-baby-nursery.html'>15 Tips to Organize a Baby Nursery</a>
+<a href='tips-to-protect-kids-from-air-pollution.html'>10 Tips to Protect Kids from Air Pollution</a>
+<a href='tips-to-raise-healthy-kids-in-a-vegan-household.html'>5 Tips to Raise Healthy Kids in a Vegan Home</a>
+<a href='tips-to-start-montessori-at-home.html'>Tips to Start Montessori at Home</a>
+<a href='toddler-nutrition.html'>toddler-nutrition.html</a>
+<a href='top-10-eric-carle-books-and-crafts-for-toddlers.html'>Top 10 Eric Carle Books and Crafts for Toddlers</a>
+<a href='top-10-funny-books-for-kids.html'>Top 10 Funny books for Kids</a>
+<a href='top-10-home-remedies-for-diarrhea.html'>top-10-home-remedies-for-diarrhea.html</a>
+<a href='top-10-iron-rich-foods-for-kids-with-recipes.html'>Top 10 Iron Rich Foods for Kids</a>
+<a href='top-10-natural-home-remedies-for-teething-babies.html'>10 Home Remedies for Teething Babies</a>
+<a href='top-10-reasons-to-vaccinate-your-child.html'>Â 10 Compelling Reasons to vaccinate your child</a>
+<a href='top-20-home-remedies-for-cough-and-cold-for-children.html'>Home Remedies for Cough and Cold in babies and Toddlers</a>
+<a href='top-5-foods-that-boost-memory-and-concentration-in-kids.html'>Top 5 Foods that Boost Memory and Concentration in Kids</a>
+<a href='top-50-winter-health-tips-children.html'>50 Winter Health Tips for Children</a>
+<a href='top-7-baby-feeding-essentials.html'>top-7-baby-feeding-essentials.html</a>
+<a href='top-7-essential-nutrients-your-child-may-be-missing.html'>Top 7 Essential Nutrients your Child may be Missing !!</a>
+<a href='top-8-summer-tips-for-skin-care-in-children.html'>Top Summer Tips for Skin Care in Children</a>
+<a href='top-up-your-income-with-the-exide-life-income-advantage-plan.html'>top-up-your-income-with-the-exide-life-income-advantage-plan.html</a>
+<a href='traditional-indian-rituals-for-newborns.html'>Your Guide to Traditional Indian Rituals for Newborns</a>
+<a href='tread-your-own-path-with-classmate-customized-notebooks.html'>Tread your own Path – with Classmate Customized Notebooks!</a>
+<a href='treat-congenital-hearing-loss-with-early-detection-and-medical-care.html'>treat-congenital-hearing-loss-with-early-detection-and-medical-care.html</a>
+<a href='treebo-summer-carnival.html'>treebo-summer-carnival.html</a>
+<a href='unforgettable-story-of-a-birth-parent.html'>unforgettable-story-of-a-birth-parent.html</a>
+<a href='untumble-online-customized-party-supplies-store-in-india.html'>untumble-online-customized-party-supplies-store-in-india.html</a>
+<a href='valentines-day-crafts-for-toddlers.html'>20 Easy Valentine’s Day Crafts for Toddlers</a>
+<a href='wash-hands-to-save-lives-global-handwashing-day.html'>wash-hands-to-save-lives-global-handwashing-day.html</a>
+<a href='ways-to-dress-your-baby-in-krishna-dress.html'>7 Tips to Dress your Little One as Krishna</a>
+<a href='ways-to-skip-the-mommy-guilt.html'>10 Ways to Skip the Mommy Guilt</a>
+<a href='weaning-from-a-bottle-to-a-sippy-cup.html'>10 Steps for Weaning from a Bottle to a Sippy Cup</a>
+<a href='weaning.html'></a>
+<a href='what-rice-can-i-give-my-baby.html'>What Rice can I give my Baby?</a>
+<a href='what-to-pack-for-daycare.html'>What to Pack for Daycare</a>
+<a href='when-can-i-give-my-baby-cows-milk.html'>When can I give my Baby Cow’s milk?</a>
+<a href='when-can-i-give-my-baby-eggs.html'>When can I give my Baby Eggs ?</a>
+<a href='when-can-i-give-my-baby-honey.html'>Can I give my Baby Honey?</a>
+<a href='when-can-i-give-my-baby-meat-and-fish.html'>When Can my Baby eat Non Vegetarian Food?</a>
+<a href='which-is-the-best-cooking-oil-for-babies.html'>The Best Cooking Oil for Babies</a>
+<a href='why-children-lie-and-what-to-do.html'></a>
+<a href='why-homemade-food-mixes-are-better-than-commercial-cerelac-for-babies.html'>6 Reasons Homemade Food Mixes are better than Commercial Cerelac for Babies</a>
+<a href='why-is-deworming-good-for-your-child.html'>Importance of Deworming Children</a>
+<a href='why-no-cow-milk-for-babies-below-1-year.html'>Why no cow milk for babies before 1 year?</a>
+<a href='why-no-salt-and-sugar-for-babies-until-1-year-of-age.html'>Why No Salt for Babies till 1 year ?</a>
+<a href='why-water-sanitation-is-important-for-a-family.html'>why-water-sanitation-is-important-for-a-family.html</a>
+<a href='why-you-should-skip-the-antibiotics-this-monsoon.html'>why-you-should-skip-the-antibiotics-this-monsoon.html</a>
+<a href='winter-essentials-babies-toddlers.html'>10 Winter Essentials for Babies and Toddlers</a>
+<a href='wonderboxx-monthly-subscription-box.html'>What is in the WonderBoxx ?</a>
+<a href='wonderboxx-review-kiddo-3-5-years.html'>WonderBoxx Kiddo Review (3-5 Years)</a>
+<a href='world-of-moms-blogging-contest.html'>world-of-moms-blogging-contest.html</a>
+<a href='zoomin-app-review-contest-giveaway.html'>Zoomin App Review</a>
+
+
+<div class="container">
+</body>
